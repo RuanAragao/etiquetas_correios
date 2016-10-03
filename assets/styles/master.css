@@ -1,0 +1,152 @@
+@page {
+	size: 21cm 29.7cm;
+}
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.row {
+	display: block;
+	float: left;
+	margin-top: 5px;
+	position: relative;
+	width: 100%;
+}
+
+.etiqueta {
+	border: 1px solid #e7e7e7;
+	display: block;
+	float: left;
+	position: relative;
+	width: 106.36mm;
+	height: 138.11mm;
+}
+
+.chancela,
+.datamatrix,
+.logo,
+.label-nf,
+.label-contrato,
+.label-peso {
+	display: block;
+	float: left;
+	font-size: 9pt;
+	padding-left: 2mm;
+	position: relative;
+}
+
+.chancela,
+.datamatrix,
+.logo {
+	padding-left: 8mm;
+	height: 25mm;
+	width: 25mm;
+}
+.chancela > img {
+	width: 25mm;
+}
+.datamatrix > img {
+	width: 25mm;
+}
+.logo > img {
+	width: 25mm;
+}
+
+.label-nf {
+	width: 30mm;
+}
+.label-contrato {
+	margin-left: 5mm;
+	width: 39mm;
+}
+.label-peso {
+	width: 23mm;
+}
+
+.label-nf,
+.label-contrato {
+	font-size: 9pt;
+}
+
+.rastreio {
+	float: left;
+	text-align: center;
+	margin: 0 5mm;
+	width: 80mm;
+}
+.rastreio img {
+	width: 80mm;
+}
+.rastreio .label-rastreio {
+	font-size: 11pt;
+	font-weight: bold;
+}
+.services {
+	float: left;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-top: 5mm;
+}
+
+.ar-sign,
+.label-documento {
+	font-size: 9pt;
+	margin-left: 4px;
+}
+.destinatario {
+	border: 1px solid #333;
+	font-size: 11pt;
+	margin-left: 4px;
+	margin-top: 0;
+	height: 46mm;
+	width: 103mm;
+}
+.label-destinatario-container {
+	margin-top: 0;
+}
+.label-destinatario {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding: .4mm 2mm;
+}
+.logo-correios {
+	float: right;
+}
+
+.dados-destinatario,
+.label-cep,
+.cep {
+	margin-left: 5mm;
+}
+.label-cep {
+	display: inline-block;
+	width: 180px;
+}
+.label-tipo {
+	font-weight: bold;
+}
+.cep,
+.obs {
+	display: block;
+	float: left;
+}
+.cep {
+	width: 170px;
+}
+.cep img {
+	height: 18mm;
+	width: 40mm;
+}
+.obs {
+	font-size: 10pt;
+}
+
+.remetente {
+	font-size: 10pt;
+	margin: 4px 0 8px 0;
+	padding-left: 4px;
+}
