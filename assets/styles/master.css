@@ -1,6 +1,9 @@
 @page {
 	size: 21cm 29.7cm;
 }
+body {
+	-webkit-print-color-adjust: exact;
+}
 * {
 	border: 0;
 	margin: 0;
@@ -115,6 +118,7 @@
 }
 .logo-correios {
 	float: right;
+	padding: 1px 1px 0 0;
 }
 
 .dados-destinatario,
