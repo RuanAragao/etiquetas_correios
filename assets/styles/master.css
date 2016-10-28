@@ -239,6 +239,9 @@ body {
 .data-center-content .data-barcode-plp strong {
 	font-size: 11pt;
 }
+.data-center-content .data-barcode-plp img.barcode-img {
+	height: 14mm;
+}
 
 .service-plp {
 	font-size: 11pt;
