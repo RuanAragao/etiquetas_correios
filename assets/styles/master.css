@@ -20,12 +20,19 @@ body {
 }
 
 .etiqueta {
-	border: 1px solid #e7e7e7;
+	border: 1px solid #e7e7e7;dd
 	display: block;
 	float: left;
 	position: relative;
 	width: 106.36mm;
 	height: 138.11mm;
+}
+.plp {
+	display: block;
+	float: left;
+	position: relative;
+	width: 180.0mm;
+	height: 125.0mm;
 }
 
 .chancela,
@@ -153,4 +160,129 @@ body {
 	font-size: 10pt;
 	margin: 4px 0 8px 0;
 	padding-left: 4px;
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* PLP */
+.plp * .row {
+	margin-top: 0;
+}
+
+.header-box-plp {
+	height: 10mm;
+}
+.header-box-plp .logo-correios-plp,
+.header-box-plp .correios-title-header-plp {
+	float: left;
+}
+.header-box-plp .logo-correios-plp {
+	width: 35mm;
+}
+.header-box-plp .logo-correios-plp img {
+	height: 8mm;
+}
+.header-box-plp .correios-title-header-plp {
+	text-align: center;
+	font-weight: bold;
+	width: 145mm;
+	padding-top: 3mm;
+}
+
+.data-box {
+	border: 2px solid black;
+}
+.title-box-plp {
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	height: 6mm;
+	padding-top: 1mm;
+	display: inline-block;
+	line-height: normal;
+	position: relative;
+}
+
+
+.data-center-content {
+	height: 25mm;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.data-center-content .data-content,
+.data-center-content .data-barcode-plp {
+	float: left;
+}
+.data-center-content .data-content {
+	font-size: 11pt;
+	width: 108mm;
+	padding-top: 2mm;
+	padding-left: 2mm;
+}
+.data-center-content .data-barcode-plp {
+	width: 70mm;
+	padding-top: 2mm;
+}
+.data-center-content .data-barcode-plp strong {
+	font-size: 11pt;
+}
+
+.service-plp {
+	font-size: 11pt;
+	height: 19mm;
+	padding-top: 1mm;
+	padding-left: 2mm;
+}
+
+.service-plp .col-1,
+.service-plp .col-2,
+.service-plp .col-3,
+.service-plp .col-4 {
+	float: left;
+}
+.service-plp .col-1 {
+	width: 33mm;
+}
+.service-plp .col-2 {
+	width: 33mm;
+}
+.service-plp .col-3 {
+	width: 42mm;
+}
+.service-plp .col-4 {
+	width: 70mm;
+}
+
+.service-line {
+	height: 10mm;
+	margin-bottom: 2mm;
+}
+
+.date-receipt {
+	height: 8mm;
+}
+.sign-correios {
+	border-top: 2px solid black;
+	padding-top: 1mm;
+}
+
+.cut-line {
+	display: block;
+	border-bottom: 2px dashed black;
+	position: relative;
+	margin-top: 2mm;
+	margin-bottom: 2mm;
 }
